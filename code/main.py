@@ -93,6 +93,8 @@ if __name__ == "__main__":
     else:
         cfg.CUDA = False
 
+    cfg.CUDA = True
+    print(cfg.CUDA)
     if args.data_dir != '':
         cfg.DATA_DIR = args.data_dir
     print('Using config:')
